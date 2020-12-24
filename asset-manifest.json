@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/workspace/static/css/main.a75cf167.chunk.css",
+    "main.js": "/workspace/static/js/main.9328996f.chunk.js",
+    "main.js.map": "/workspace/static/js/main.9328996f.chunk.js.map",
+    "runtime-main.js": "/workspace/static/js/runtime-main.2ff10444.js",
+    "runtime-main.js.map": "/workspace/static/js/runtime-main.2ff10444.js.map",
+    "static/js/2.a9256617.chunk.js": "/workspace/static/js/2.a9256617.chunk.js",
+    "static/js/2.a9256617.chunk.js.map": "/workspace/static/js/2.a9256617.chunk.js.map",
+    "index.html": "/workspace/index.html",
+    "static/css/main.a75cf167.chunk.css.map": "/workspace/static/css/main.a75cf167.chunk.css.map",
+    "static/js/2.a9256617.chunk.js.LICENSE.txt": "/workspace/static/js/2.a9256617.chunk.js.LICENSE.txt",
+    "static/media/alarm_classic.2d6ea896.mp3": "/workspace/static/media/alarm_classic.2d6ea896.mp3",
+    "static/media/delete.8a13a5ac.png": "/workspace/static/media/delete.8a13a5ac.png",
+    "static/media/restart.283ff19e.png": "/workspace/static/media/restart.283ff19e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2ff10444.js",
+    "static/js/2.a9256617.chunk.js",
+    "static/css/main.a75cf167.chunk.css",
+    "static/js/main.9328996f.chunk.js"
+  ]
+}
