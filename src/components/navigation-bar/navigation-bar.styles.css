@@ -1,0 +1,27 @@
+.navbar{
+    position: relative;
+    padding: 5px;
+    background-color: rgb(24, 24, 27) ;
+    font-size: 15px;
+    border-bottom: 2px solid #712cdb;
+}
+.navbar>h1{
+    color:white;
+    display: inline;
+    left:10px;
+    user-select:none;
+}
+.addButton{
+    text-align: center;
+    color: #712cdb;
+    display: inline;
+    position: absolute;
+    font-size: 30px;
+    right: 5%;
+    border-radius: 50%;
+    user-select:none;
+}
+.addButton:hover{
+    color: white;
+    cursor: pointer;
+}

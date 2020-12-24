@@ -1,0 +1,36 @@
+#player {
+  position: absolute;
+  width: 392px;
+  height: 250px;
+  background-color: rgb(24, 24, 27);
+  border: 1px solid rgb(141, 76, 239);
+  color: rgb(141, 76, 239);
+}
+
+#player iframe {
+  position: absolute;
+  border-top: 1px solid rgb(141, 76, 239);
+  bottom: 0;
+  z-index: 1;
+}
+#player button {
+  background-color: rgb(38, 38, 44);
+  color: white;
+  border: none;
+  margin-left: 10px;
+  height: 20px;
+}
+#player button:hover {
+  background-color: rgb(24, 24, 27);
+}
+#player input {
+  height: 22px;
+  font-size: 18px;
+  margin-top: 2px;
+  margin-left: 2px;
+  display: inline;
+  width: 70%;
+  border: none;
+  background-color: rgb(38, 38, 44);
+  color: white;
+}

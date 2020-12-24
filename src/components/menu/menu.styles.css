@@ -1,0 +1,19 @@
+#menu {
+  background-color: rgb(24, 24, 27);
+  position: absolute;
+  top: 47px;
+  right: 2.5%;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 0;
+  z-index: 2;
+  text-align: center;
+}
+#menu p {
+  color: rgb(141, 76, 239);
+  user-select: none;
+  margin: 5px 0 5px 0;
+}
+#menu p:hover {
+  color: white;
+}

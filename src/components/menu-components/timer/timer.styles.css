@@ -1,0 +1,123 @@
+#timer {
+  position: absolute;
+  background-color: rgb(24, 24, 27);
+  color: rgb(141, 76, 238);
+  width: 300px;
+  height: 180px;
+  border: 1px solid rgb(141, 76, 238);
+  text-align: center;
+  display: inline;
+}
+#timerNavbar {
+  border-bottom: 1px solid rgb(141, 76, 238);
+}
+#timerNavbar p {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 7px;
+}
+#timerNavbar p:hover {
+  color: white;
+  cursor: pointer;
+}
+#timerNavbar .active {
+  color: white;
+}
+#timer img:hover {
+  animation: onewayrotation .7s ease-out;
+}
+@keyframes onewayrotation {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+/*STOPWATCH*/
+#stopwatch {
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+
+#stopwatch p {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#stopwatch img {
+  width: 60px;
+  position: absolute;
+  cursor: pointer;
+  right: 40px;
+}
+
+.playButton {
+  box-sizing: border-box;
+  height: 60px;
+
+  border-color: transparent transparent transparent rgb(141, 76, 238);
+  will-change: border-width;
+  cursor: pointer;
+
+  position: absolute;
+  left: 40px;
+
+  border-style: solid;
+  border-width: 30px 0 30px 47px;
+
+  background-color: transparent;
+}
+
+.pause {
+  border: double;
+  border-width: 0px 0 0px 47px;
+}
+
+/*Countdown*/
+#countdown input {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  background-color: rgb(24, 24, 27);
+  border: none;
+  color: white;
+}
+#countdown img {
+  width: 60px;
+  position: absolute;
+  cursor: pointer;
+  right: 40px;
+  bottom: 10px;
+}
+#countdown h1 {
+  display: inline;
+}
+#countdown #timeset {
+  margin: auto;
+  top: 20px;
+}
+#countdown .playButton {
+  bottom: 12px;
+}
+
+/*POMODORO*/
+#pomodoro{
+  color:white;
+}
+
+#pomodoro .playButton {
+  left: 10px;
+  top: 40%;
+}
+#pomodoro img {
+  position: absolute;
+  width: 60px;
+  top: 40%;
+  right: 10px;
+}
